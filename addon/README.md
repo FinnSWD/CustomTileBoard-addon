@@ -8,7 +8,7 @@ Should you have any ideas or questions please post them on the home-assistant fo
 
 1. Go to `Supervisor`, then click `Add-on Store`.
 2. Click the "three dots" in the top-right corner and select `Repositories`.
-3. Enter `https://github.com/resoai/TileBoard-addon` in the input field and click `Add`.
+3. Enter `https://github.com/FinnSWD/CustomTileBoard-addon` in the input field and click `Add`.
 4. The `Tileboard` addon should appear in the list. Click it and then click `Install`.
 
 ## Configuration
@@ -23,7 +23,7 @@ Here are various configuration files that can be added to that folder:
 
 | file | required | description |
 | ----- | ------- | ----------- |
-| `config.js` | yes | The main configuration file. You can use [config.example.js](https://github.com/resoai/TileBoard/blob/master/config.example.js) as a starting point. |
+| `config.js` | yes | The main configuration file. You can use [config.example.js](https://github.com/FinnSWD/CustomTileBoard-addon/blob/master/config.example.js) as a starting point. |
 | `styles/custom.css` | no | The stylesheet with custom CSS overrides. |
 | `images/*` | no | The extra images that can be referenced from the configuration file using relative paths. |
 | `locales/*` | no | If you want to add support for more locales than the bundled ones, you can add more locale files here. The file needs to have format `[locale-code].js`. |
