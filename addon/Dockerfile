@@ -29,7 +29,7 @@ RUN \
 # Fetch and unpack TileBoard
 RUN \
     set -x \
-    && curl -v -L -o /tileboard.zip https://github.com/resoai/TileBoard/releases/download/v${TILEBOARD_VERSION}/TileBoard.zip \
+    && curl -v -L -o /tileboard.zip https://github.com/FinnSWD/UI-Change-Test/releases/download/v${TILEBOARD_VERSION}/TileBoard.zip \
     && unzip /tileboard.zip -d /var/www/tileboard \
     && rm -f /tileboard.zip
 
@@ -49,7 +49,7 @@ LABEL \
     org.opencontainers.image.vendor="TileBoard Addons" \
     org.opencontainers.image.authors="Rafal Chlodnicki <rchl2k+tileboard@gmail.com>" \
     org.opencontainers.image.licenses="MIT" \
-    org.opencontainers.image.url="https://github.com/resoai/TileBoard" \
+    org.opencontainers.image.url="https://github.com/FinnSWD/UI-Change-Test" \
     org.opencontainers.image.source="https://github.com/${BUILD_REPOSITORY}" \
     org.opencontainers.image.documentation="https://github.com/${BUILD_REPOSITORY}/blob/main/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
